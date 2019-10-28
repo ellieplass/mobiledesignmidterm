@@ -1,0 +1,185 @@
+
+
+@font-face{
+    src: url(assets/fonts/Hippo_PersonalUse.otf);
+    font-family: hippo;
+    
+}
+
+
+html{
+    background-color:floralwhite;
+    
+}
+
+body{
+    background-color: #fcc203;
+    
+}
+
+path{
+    
+    fill: none;
+    margin-bottom: 5vh;
+}
+
+svg{
+    margin-bottom: -450px;
+    position: fixed;
+    z-index: 5;
+}
+
+text{
+    font-size: 35pt;
+    fill: floralwhite;
+    margin-bottom: 100px;
+    font-family: hippo;
+}
+
+.video1pics{
+    display: inline-block;
+    
+}
+
+img{
+    
+    height: 30vh;
+    
+}
+
+.hand{
+    width: 16vw;
+    height: 20vh;
+    
+}
+
+
+
+
+.video1{
+    
+    height: 30vh;
+    width: auto;
+    margin-bottom: 5vh;
+   
+    
+}
+.video2{
+    
+    height: 30vh;
+    width: auto;
+    margin-bottom: 5vh;
+    
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 400px){
+    
+    html{
+        background-color: black;
+        
+    }
+    .video1{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    .video2{
+        height: 30vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    
+    .container{
+        display: block;
+        float: center;
+    }
+    
+    img{
+        height: 30vh;
+        
+    }
+    
+    .hand{
+        height: 30vh;
+        
+    }
+    
+}
+
+
+@media only screen and (min-width: 729px) and (max-width: 960px){
+    .video1{
+        height: 60vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    .video2{
+        height: 60vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    
+    .container{
+        display: block;
+        float: center;
+    }
+    
+    img{
+        height: 50vh;
+        
+    }
+    
+    .hand{
+        height: 50vh;
+        
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width: 961px) {
+
+
+
+    .video1{
+        height: 60vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    .video2{
+        height: 60vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    
+    .container{
+        display: block;
+        float: center;
+    }
+    
+    img{
+        height: 50vh;
+        
+    }
+    
+    .hand{
+        height: 50vh;
+        
+    }
+}
+
+
