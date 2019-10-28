@@ -115,6 +115,38 @@ img{
     
 }
 
+@media only screen and (max-width: 316px){
+    
+    .video1{
+        height: 20vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    .video2{
+        height: 20vh;
+        width: auto;
+        margin-bottom: 10vh;
+        
+    }
+    
+    .container{
+        display: block;
+        float: center;
+    }
+    
+    img{
+        height: 20vh;
+        
+    }
+    
+    .hand{
+        height: 20vh;
+        
+    }
+    
+}
+
 
 @media only screen and (min-width: 729px) and (max-width: 960px){
     .video1{
